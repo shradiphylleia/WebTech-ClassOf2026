@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form layout</title>
+    <h1 style="font-size: 34px;text-align: center;">Login now!</h1>
+</head>
+<style>
+div {
+    display: flex;
+    align-items:center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 440px;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(139, 219, 237);
+}
+</style>
+<body style="background-color: white;">
+    <div>
+    <form>
+        <label for="fname">Enter name:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="age">Enter Age</label>
+        <br>
+        <input type="number" min="18" max="50">
+        <br>
+        <label for="address">Enter address:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date">
+        <br>
+        <label for="course">Choose your gender</label>
+        <br>
+        <select name="course" id=""course>
+            <option value="option1">Female</option>
+            <option value="option2">Male</option>
+            <option value="option3">Transgender</option>
+            <option value="option3">Prefer not to say</option>
+          </select>
+        <br>
+        <label for="course">Choose your course</label>
+        <br>
+        <select name="course" id=""course>
+            <option value="option1">Undergraduate</option>
+            <option value="option2">Graduate</option>
+            <option value="option3">Doctoral</option>
+            <option value="option3">Post Doctoral</option>
+          </select>
+        <br>
+        <label for="course">Choose your game</label>
+        <br>
+        <select name="course" id=""course>
+            <option value="option1">Football</option>
+            <option value="option2">Tennis</option>
+            <option value="option3">Kabaddi</option>
+            <option value="option3">Chess</option>
+          </select>
+        <br>
+        <input type="submit" value="Submit now">
+        <input type="checkbox" id="toRemember">
+        <label for="toRemember">Remember me</label>
+      </form> 
+    </div>
+      
+</body>
